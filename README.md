@@ -1,7 +1,9 @@
 # Netflix GPT
 
-- Created react using vite.(use node 22.12+).
-- Configured tailwind.
+- Created react using vite (use node 22.12+)
+- Configured tailwind
+- Header
+- Login form
 
 # Features
 
