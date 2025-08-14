@@ -3,7 +3,10 @@
 - Created react using vite (use node 22.12+)
 - Configured tailwind
 - Header
-- Login form
+- Routing of app
+- Login form/Sign up form
+- Form validation
+- useRef hook
 
 # Features
 
