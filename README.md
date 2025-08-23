@@ -1,4 +1,4 @@
-# Netflix GPT
+# CineGPT
 
 - Created react using vite (use node 22.12+)
 - Configured tailwind
@@ -14,6 +14,8 @@
 - Created Redux Store with user slice
 - Implemented signout
 - Update profile
+- Unsubscribed to the onAuthStateChanged callback
+- Add hardcoded values to the constants file
 
 # Features
 
@@ -29,6 +31,6 @@
     - Movie suggestion
         - Movie list
 
-- NetflixGPT
+- CineGPT
     - Search bar
     - Movie suggestions

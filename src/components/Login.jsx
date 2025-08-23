@@ -104,13 +104,13 @@ const Login = () => {
           <button
             onClick={handleForm}
             type="button"
-            className="px-4 py-2 rounded-sm bg-red-600 font-medium"
+            className="px-4 py-2 rounded-sm bg-yellow-300/90 font-medium"
           >
             {isSignInForm ? "Sign In" : "Sign Up"}
           </button>
           <div>
             <span className="text-gray-400">
-              {isSignInForm ? "New to Netflix? " : "Already a user? "}
+              {isSignInForm ? "New to CineGPT? " : "Already a user? "}
             </span>
             <button
               type="button"
