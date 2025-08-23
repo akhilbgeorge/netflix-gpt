@@ -1,5 +1,4 @@
 export const validateForm = (fullName, email, password, isSignIn) => {
-  console.log(fullName);
   if (!isSignIn) {
     const validateFullName = /^[A-Za-z]{1,16}( [A-Za-z]{1,16})+$/g.test(
       fullName.trim()
