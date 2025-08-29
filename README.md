@@ -16,6 +16,16 @@
 - Update profile
 - Unsubscribed to the onAuthStateChanged callback
 - Add hardcoded values to the constants file
+- Register TMDB API & create an app & get access token
+- Get data from TMDB now playing movies list API
+- Custom hook for now playing movies
+- Create movieslice
+- Update store with movies data
+- Planning for main container and secondary container
+- Fetch data for trailer video
+- Update store with trailer video data
+- Embedded youtube video and make it autoplay and mute
+- Tailwind classes to make main container look awesome
 
 # Features
 

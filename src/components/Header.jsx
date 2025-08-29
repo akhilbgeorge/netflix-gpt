@@ -24,7 +24,7 @@ const Header = () => {
             Sign out
           </button>
         )}
-        <span className="ms-4 font-light text-gray-800">
+        <span className="ms-4 font-light text-white">
           {user?.displayName}
         </span>
       </div>
