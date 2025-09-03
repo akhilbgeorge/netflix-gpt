@@ -75,7 +75,7 @@ const Login = () => {
         />
         <div className="absolute inset-0 bg-black/70"></div>
       </div>
-      <div className="flex justify-center items-center min-h-[calc(100vh-5rem)]">
+      <div className="flex justify-center items-center h-screen">
         <form className="flex flex-col w-md gap-5 p-14 text-gray-50 bg-black/70 rounded-md">
           <h1 className="text-3xl font-bold">
             {isSignInForm ? "Sign In" : "Sign Up"}

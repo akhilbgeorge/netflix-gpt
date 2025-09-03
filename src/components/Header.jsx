@@ -1,7 +1,7 @@
 import { signOut } from "firebase/auth";
 import { auth } from "../utils/firebase";
 import { useSelector } from "react-redux";
-import cinegpt from "../assets/cinegpt.png"
+import cinegpt from "../assets/cinegpt.png";
 
 const Header = () => {
   const user = useSelector((store) => store.user);
@@ -13,7 +13,7 @@ const Header = () => {
     }
   };
   return (
-    <div className="flex items-center justify-between px-30 py-4 w-full h-20 bg-gradient-to-b from-black">
+    <div className="fixed z-10 flex items-center justify-between px-20 w-full bg-gradient-to-b from-black">
       <img className="w-22" src={cinegpt} alt="CineGPT Logo" />
       <div>
         {user && (
@@ -24,9 +24,7 @@ const Header = () => {
             Sign out
           </button>
         )}
-        <span className="ms-4 font-light text-white">
-          {user?.displayName}
-        </span>
+        <span className="ms-4 font-light text-white">{user?.displayName}</span>
       </div>
     </div>
   );

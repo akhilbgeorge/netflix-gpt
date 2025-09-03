@@ -7,9 +7,9 @@ const VideoBackground = ({ movieId }) => {
   if (!trailer) return;
   const { key } = trailer;
   return (
-    <div className="absolute inset-0 -z-10">
+    <div>
       <iframe
-        className="w-screen aspect-video"
+        className="aspect-video"
         src={`https://www.youtube.com/embed/${key}?autoplay=1&mute=1&controls=0&loop=1&playlist=${key}`}
       ></iframe>
       <div className="absolute inset-0 bg-gradient-to-r from-black/50 aspect-video"></div>

@@ -9,3 +9,5 @@ export const API_OPTIONS = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZDIxMWQ4ZWNkMTJjZDdlM2M0ODYyNGQzNDk4YTkyMSIsIm5iZiI6MTc1NTk4MTkxNi4xNjMsInN1YiI6IjY4YWEyODVjOTJjMWI0MGQ0MDZjZTEwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.iz7VOWXEKFpwrpIN-YGc-vJNn1JgQxnIgzonKPXYnOc",
   },
 };
+
+export const MOVIE_CARD_IMG_URL = "https://image.tmdb.org/t/p/w200/";
