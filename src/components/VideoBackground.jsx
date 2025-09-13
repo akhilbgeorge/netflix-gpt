@@ -7,12 +7,12 @@ const VideoBackground = ({ movieId }) => {
   if (!trailer) return;
   const { key } = trailer;
   return (
-    <div>
+    <div className="">
       <iframe
-        className="aspect-video"
+        className="absolute top-0 left-0 w-full h-full scale-140 origin-center"
         src={`https://www.youtube.com/embed/${key}?autoplay=1&mute=1&controls=0&loop=1&playlist=${key}`}
       ></iframe>
-      <div className="absolute inset-0 bg-gradient-to-r from-black/50 aspect-video"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-black/50 scale-140"></div>
     </div>
   );
 };
